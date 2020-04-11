@@ -15,7 +15,12 @@
     <script type="text/babel">
       var Title = React.createClass({
         render: function () {
-          return <h1>Hello World in component</h1>;
+          return (
+            <div>
+              <h1>Title</h1>
+              <span>Hello World in component</span>
+            </div>
+          );
         },
       });
       ReactDOM.render(<Title />, document.getElementById("root"));
