@@ -1,29 +1,8 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World</title>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.js"></script>
-
-    <!--Babel src-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="text/babel">
-      var Title = React.createClass({
-        render: function () {
-          return (
-            <div>
-              <h1>Title</h1>
-              <span>Hello World in component</span>
-            </div>
-          );
-        },
-      });
-      ReactDOM.render(<Title />, document.getElementById("root"));
-    </script>
-  </body>
+    <head>
+        <title>Index</title>
+    </head>
+    <body>
+        <script src="/dist/bundle.js"></script>
+    </body>
 </html>
