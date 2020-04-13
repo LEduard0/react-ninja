@@ -1,7 +1,12 @@
-"use strict"
+"use strict";
 
-function sum(v1, v2){
-    return v1 + v2;
-}
+var React = require("react");
+var ReactDOM = require("react-dom");
 
-module.exports = sum
+var Title = React.createClass({
+  render: function () {
+    return React.createElement("h1", null, "title");
+  },
+});
+
+module.exports = Title;
