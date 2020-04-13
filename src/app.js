@@ -1,7 +1,7 @@
 "use strict";
 
-var React = require("react");
-var ReactDOM = require("react-dom");
+import React from "react";
+import ReactDOM from "react-dom";
 
 var Title = React.createClass({
   render: function () {
@@ -9,4 +9,4 @@ var Title = React.createClass({
   },
 });
 
-module.exports = Title;
+export default Title;
