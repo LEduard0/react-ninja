@@ -1,7 +1,7 @@
 "use strict";
 
-import Title from "./app";
 import React from "react";
-import { render } from "./react-dom";
+import { render } from "react-dom";
+import Title from "./app";
 
-render(React.createElement(Title), document.querySelector('[data-js="app"]'));
+render(<Title />, document.querySelector('[data-js="app"]'));
