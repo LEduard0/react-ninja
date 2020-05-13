@@ -1,10 +1,15 @@
 "use strict";
 
 import React from "react";
+import Title from "./title";
 
 const App = React.createClass({
   render: function () {
-    return <h1>App</h1>;
+    return (
+      <div>
+        <Title name="Luiz Edu" />
+      </div>
+    );
   },
 });
 
