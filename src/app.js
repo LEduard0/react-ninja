@@ -3,14 +3,14 @@
 import React from "react";
 import Title from "./title";
 
-const App = React.createClass({
-  render: function () {
+class App extends React.Component {
+  render() {
     return (
       <div className="container">
-        <Title />
+        <Title name="Has" lastname="Name" />
       </div>
     );
-  },
-});
+  }
+}
 
 export default App;
